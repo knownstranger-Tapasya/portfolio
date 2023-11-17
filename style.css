@@ -115,6 +115,16 @@ nav a:hover {
     color: #08d2ff;
 }
 
+.pdf {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+pdf:hover {
+    color: white;
+}
+
 
 /* Section styles */
 
@@ -208,11 +218,15 @@ textarea {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 button[type="submit"] {
-    background-color: #1c3d69;
-    color: #fff;
+    background-color: #f0f2f5;
+    color: #111111;
     border: none;
     padding: 10px 20px;
     margin-top: 20px;
@@ -221,7 +235,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #000000;
+    background-color: #08d2ff;
 }
 
 

@@ -976,6 +976,14 @@ body {
         flex-direction: column;
         padding-top: -10%;
     }
+    .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    max-width: 35rem;
+}
     .home h1 {
         font-size: 4.5rem;
     }
@@ -999,7 +1007,7 @@ body {
         font-weight: 200;
     }
     #education {
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
     .education {
         margin: 50px auto;

@@ -1061,7 +1061,7 @@ body {
         padding-left: 35px;
     }
     #project .port-row {
-        grid-template-columns: 1fr;
+        grid-template-columns: max-content;
         padding-left: 0px;
     }
     #project .port-row .port-item .port-info h4 {
